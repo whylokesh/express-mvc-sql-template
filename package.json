@@ -1,0 +1,36 @@
+{
+  "name": "raw-mvc-backend",
+  "version": "1.0.0",
+  "description": "Here’s the **README.md** file with all commands in plain text format that you can copy and paste directly:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.ts",
+    "build": "tsc",
+    "build-clean": "npx tsc --build --clean",
+    "start": "node server.js",
+    "migrate": "ts-node database/scripts/migrate.ts",
+    "seed": "ts-node database/scripts/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.0",
+    "pg-pool": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "@types/pg": "^8.11.11",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
