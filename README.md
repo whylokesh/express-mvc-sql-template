@@ -13,7 +13,7 @@ mkdir raw-mvc-backend && cd raw-mvc-backend
 npm init -y  
 
 2. Install Required Dependencies
-npm install express dotenv cors body-parser morgan  
+npm install express dotenv cors body-parser morgan express-rate-limit helmet compression
 npm install pg pg-pool  
 npm install --save-dev typescript ts-node nodemon @types/node @types/express  
 
