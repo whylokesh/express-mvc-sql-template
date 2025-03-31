@@ -9,8 +9,8 @@
     "build": "tsc",
     "build-clean": "npx tsc --build --clean",
     "start": "node src/server.js",
-    "migrate": "ts-node database/scripts/migrate.ts",
-    "seed": "ts-node database/scripts/seed.ts"
+    "migrate": "ts-node scripts/migrate.ts",
+    "seed": "ts-node scripts/seed.ts"
   },
   "keywords": [],
   "author": "",
