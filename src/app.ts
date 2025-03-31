@@ -6,8 +6,8 @@ import dotenv from "dotenv";
 import helmet from "helmet";
 import compression from "compression";
 import rateLimit from "express-rate-limit";
-import routes from "./core/routes";
-import errorHandler from "./core/middlewares/errorHandler";
+import routes from "./routes";
+import errorHandler from "./middlewares/errorHandler";
 
 dotenv.config();
 
